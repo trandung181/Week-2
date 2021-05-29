@@ -1,0 +1,243 @@
+body{
+    width: 1440px;
+    height: 6316px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header .info{
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    width: 1440px;
+    height: 32px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+header .info .phone{
+    margin-left: 130px;
+    display: flex;
+}
+header .info .diachi{
+    margin-left:50px ;
+    display: flex;
+}
+header .info .star{
+    margin-left: 550px;
+    display: flex;
+}
+#icon-phone,#icon-map,#icon-star{
+    margin-right: 5px;
+}
+
+header .header1{
+    width: 1440px;
+    height: 120px;
+}
+/* header 1*/
+header .header1 {
+    display: flex;
+    position: relative;
+}
+header .header1 .icon{
+    padding-top: 33px;
+    margin-left: 130px;
+}
+header .header1 .men-women{
+    padding-top: 50px;
+    margin-left: 70px;
+    font-size: 16px;
+}
+header .header1 .search{
+    width: 380px;
+    height: 38px;
+    padding-top:41px;
+    display: flex;
+    margin-left: 80px;
+    position: relative;
+   
+}
+header .header1 .search input{
+    width: 380px;
+    height: 36px;
+    padding: 0px;
+    border: 1px solid;
+}
+header .header1 .search button {
+    width: 100px;
+    height: 38px;
+    background-color: #1a1a1a;
+    color: white;
+    position: absolute;
+    right: 0px;
+}
+header .header1 .account {
+    display: flex;
+    font-size: 10px;
+    margin-left: 80px;
+
+}
+.bottom{
+    display: flex;
+   
+}
+header .header1 .wishlist{
+    display: flex;
+    margin-left: 30px;
+    font-size: 14px;
+}
+header .header1 .cart{
+    display: flex;
+    margin-left: 30px;
+    font-size: 14px;
+}
+#cart1{
+    margin-top: 50px;
+    margin-left: 18px;
+}
+#cart{
+    margin-top: 51px;
+    font-size: 18px;
+}
+#wishlist{
+    margin-top: 51px;
+    margin-left: 18px;
+}
+#heart{
+    margin-top: 51px;
+    font-size: 16px;
+}
+#user{
+    margin-top: 51px;
+    margin-right: 16px;
+    font-size: 16px;
+}
+#sign-in-up{
+    margin-top: 40px;
+}
+#ac{
+    font-size: 14px;
+}
+#men{
+    margin-right: 40px;
+}
+#hr{
+    width: 32px;
+    height: 0px;
+    border: 0.5px solid #1a1a1a;
+    position: absolute;
+    left: 316px;
+    top: 70px;
+    
+}
+#down{
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 2px;
+   
+}
+/* header2*/
+header .header2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 1440px;
+    height: 50px;
+    align-items: center;
+    border-top: 1px solid #c4c4c4;
+}
+header .header2 ul{
+    
+    text-align: center;
+    display: flex;
+}
+header .header2 ul li{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid #c4c4c4;
+}
+#li-end{
+    border: 0px ;
+}
+/* banner1*/
+section .banner1{
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 598px;
+    background-color: #cdddf0;
+}
+section .banner1 .right{
+    position: absolute;
+    top:69px;
+    left: 630px;
+    width: 680px;
+    height: 460px;
+    background-color: #d4f5ff;
+    display: flex;
+}
+section .banner1 .right .icon-right{
+    position: absolute;
+    right: 8px;
+    bottom: 18px;
+}
+section .banner .banner1 .img-right{
+    position: absolute;
+    left: 832px;
+    top:10px
+    
+}
+section .banner .banner1 .ob{
+    position: absolute;
+    top:137px;
+    left: 130px;
+}
+section .banner .banner1 .laster{
+    position: absolute ;
+    top: 223px;
+    left: 230px;
+}
+section .banner .banner1 button{
+    position: absolute;
+    cursor: pointer;
+    font-size: 14px;
+    width: 121px;
+    height: 38px;
+    top: 384px;
+    left: 130px;
+    color: white;
+    background-color: #1a1a1a;
+}
+section .banner .banner1 .video{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 390px;
+    left: 330px;
+    cursor: pointer;
+
+}
+section .banner .banner1 .rectangle{
+    display: flex;
+    position: absolute;
+    top: 527px;
+    cursor: pointer;
+    left: 130px;
+    cursor: pointer;
+}
+section .banner .banner1 .rectangle hr{
+    width: 40px;
+    height: 2px;
+    background-color: #b3c4d7;
+    margin-left: 3px;
+}
+#hr1{
+    background-color: white;
+}
+#watch-video{
+    margin-left: 10px;
+}

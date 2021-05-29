@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lexend', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
